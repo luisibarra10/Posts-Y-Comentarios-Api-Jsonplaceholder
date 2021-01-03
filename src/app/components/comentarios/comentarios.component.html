@@ -1,0 +1,19 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <p class="text-center"><b> Comentarios</b></p>
+        </div>
+        <div class="card-body">
+            <div *ngFor="let comentario of comentarios">
+                <div class="card mt-1">
+                    <div class="card-body">
+                        <p><b>Nombre:</b> {{comentario.name}}</p>
+                        <p><b>Email:</b> {{comentario.email}}</p> 
+                        <p><b>Detalle:</b> {{comentario.body}}</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-success mt-3 mr-3" (click)="emitirMensaje()" >Emitir</button>
+        </div>
+    </div>
+</div>

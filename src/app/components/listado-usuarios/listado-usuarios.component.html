@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+    <div class="card mb-4">
+        <div class="card-header bg-success  ">
+            <h5 class="text-center text-white ">Listado de Posts</h5>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Ver Más</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let usuario of usuarios">
+                    <th>{{usuario.id}} </th>
+                    <td>{{usuario.title}}</td>
+                    <td> <i class="fas fa-search-plus text-primary" (click)="obtenerUsuario(usuario.id)"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+        </div>
+    </div>
+</div>

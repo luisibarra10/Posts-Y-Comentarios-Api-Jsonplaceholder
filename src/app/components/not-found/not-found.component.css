@@ -1,0 +1,39 @@
+.contenido {
+    background-color: white !important;
+}
+.notfound{
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.aviso{
+    margin-top: 120px;
+}
+
+.titulo{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.mensaje{
+    padding-right: 200px;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    color: #7B7B7B;
+    
+}
+
+.btn-404{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+img{
+    margin-bottom: -120px;
+}

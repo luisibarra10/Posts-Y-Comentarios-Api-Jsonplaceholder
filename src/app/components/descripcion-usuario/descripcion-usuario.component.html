@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-header bg-success">
+                    <h5 class="text-center text-white ">Posts </h5>
+                </div>
+                <div class="card-body">
+                    <p><b>Post:</b> {{seleccionado}}</p>
+                    <p><b>Titulo:</b> {{titulo}}</p>
+                    <p><b>Detalle:</b> {{detalle}}</p>
+                    <p *ngIf="date != ''"><b>Ultimo comentario :</b> {{date}}</p>
+                    <app-comentarios (fechaEmitir)="recibirFecha( $event )"></app-comentarios>
+                    <button class="btn btn-secondary float-right mt-3 mr-3" routerLink="/posts">Regresar</button>
+                </div>
+            </div>  
+        </div>
+    </div>  
+</div>
+

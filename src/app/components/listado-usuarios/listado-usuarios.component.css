@@ -1,0 +1,17 @@
+table {
+   border: 1px solid #ccc;
+    
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.pagination {
+    cursor: pointer;
+}
+
+.fa-search-plus{
+    font-size: 20px;
+    cursor: pointer;
+}
