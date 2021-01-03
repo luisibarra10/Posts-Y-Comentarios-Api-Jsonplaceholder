@@ -23,4 +23,7 @@ Ejercicio 4: Se requiere emitir la fecha desde el componente comentarios con la 
 ## Preview:
 
 
-![Cat](https://github.com/luisibarra10/Test-Usuarios-Estatico/blob/main/src/assets/img/preview.PNG)
+![Cat](https://github.com/luisibarra10/Posts-Y-Comentarios-Api-Jsonplaceholder/blob/main/src/assets/img/preview.PNG)
+![Cat](https://github.com/luisibarra10/Posts-Y-Comentarios-Api-Jsonplaceholder/blob/main/src/assets/img/preview2.PNG)
+![Cat](https://github.com/luisibarra10/Posts-Y-Comentarios-Api-Jsonplaceholder/blob/main/src/assets/img/preview3.PNG)
+![Cat](https://github.com/luisibarra10/Posts-Y-Comentarios-Api-Jsonplaceholder/blob/main/src/assets/img/preview4.PNG)
