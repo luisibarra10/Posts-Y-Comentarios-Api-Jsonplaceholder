@@ -29,3 +29,8 @@ Ejercicio 4: Se requiere emitir la fecha desde el componente comentarios con la 
 ## 404 Not Found:
 
 ![Cat](https://github.com/luisibarra10/Posts-Y-Comentarios-Api-Jsonplaceholder/blob/main/src/assets/img/preview4.PNG)
+
+## Despliegue en Netlify
+
+https://posts-y-comentarios-jsonplaceholder.netlify.app/
+
