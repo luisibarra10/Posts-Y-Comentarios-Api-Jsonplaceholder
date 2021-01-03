@@ -1,4 +1,4 @@
-# TESTDINAMICO
+## POSTS Y COMENTARIOS DINAMICOS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
@@ -6,22 +6,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tabla con Posts consumidos desde  jsonplaceholder ||  2 Api
 
-## Build
+Ejercicio 2: se debe consumir una lista de post proveniente de https://jsonplaceholder.typicode.com/posts y generar el table html dinámico. Tambien se debe consumir un detalle de post proveniente de https://jsonplaceholder.typicode.com/posts/{id} representar el title y body en la vista.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Componente comentarios ||  3 Componente
 
-## Running unit tests
+Ejercicio 3: Se necesita generar un componente el cual se usará en vista del detalle, para cargar una lista de comentarios usando https://jsonplaceholder.typicode.com/comments?postId={id} pasando por atributo el id del post.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Componente comentarios ||  4 Emit
 
-## Running end-to-end tests
+Ejercicio 4: Se requiere emitir la fecha desde el componente comentarios con la acción de un botón hacia el componente padre de la vista detalle.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Preview:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+![Cat](https://github.com/luisibarra10/Test-Usuarios-Estatico/blob/main/src/assets/img/preview.PNG)
